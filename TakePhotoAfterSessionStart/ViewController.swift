@@ -66,7 +66,7 @@ class ViewController: UIViewController {
                         if granted {
                             NSLog("photo camera permission granted")
                         } else {
-                            NSLog("photo camera permission denied. How are we gonna do yhr awesome photo sesh??!!")
+                            NSLog("photo camera permission denied. How are we gonna do our awesome photo sesh??!!")
                         }
                 })
             case .Authorized:
